@@ -17,95 +17,96 @@ Aplicación móvil desarrollada con React Native (Expo) que simula un carnet dig
 
 **Clona el repositorio**
     ```bash
-        - git clone https://github.com/tu_usuario/CarnetDigital.git
+    - git clone https://github.com/tu_usuario/CarnetDigital.git
 
 **Entra al proyecto**
     ```bash
-        - cd CarnetDigital
+    - cd CarnetDigital
 
 **Instala dependencias**
     ```bash
-        - npm install
+    - npm install
 
 **Inicia el servidor de desarrollo**
     ```bash
-        - npm start
+    - npm start
 
 **Configurar para Web**
     ```bash
-        - npx expo install react-dom react-native-web @expo metro-runtime
+    - npx expo install react-dom react-native-web @expo metro-runtime
 
 
 ## Estructura del proyecto
 **CarnetDigital/**
     ```bash
-        │
-        ├── App.js
-        │
-        ├── /components
-        │   ├── Navigation.js
-        │   └── /nav
-        │       └── Tabs.js
-        │
-        ├── /screens
-        │   ├── registration/
-        │   │   ├── LoginScreen.js
-        │   │   └── RegisterScreen.js
-        │   ├── CarnetScreen.js
-        │   ├── EditScreen.js
-        │   ├── SettingsScreen.js
-        │   ├── NotasScreen.js
-        │   └── TalleresScreen.js
-        │
-        └── /context
-            ├── AuthContext.js
-            └── DataContext.js
+    │
+    ├── App.js
+    │
+    ├── /components
+    │   ├── Navigation.js
+    │   └── /nav
+    │       └── Tabs.js
+    │
+    ├── /screens
+    │   ├── registration/
+    │   │   ├── LoginScreen.js
+    │   │   └── RegisterScreen.js
+    │   ├── CarnetScreen.js
+    │   ├── EditScreen.js
+    │   ├── SettingsScreen.js
+    │   ├── NotasScreen.js
+    │   └── TalleresScreen.js
+    │
+    └── /context
+        ├── AuthContext.js
+        └── DataContext.js
 
 ### Instalaciones clave
 **Navegacion**
-    ```bash
+        ```bash
         - npx expo install @react-navigation/native
         - npx expo install @react-navigation/native-stack
         - npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated
         - npx expo install @react-navigation/bottom-tabs
         - npm install @react-navigation/material-top-tabs react-native-tab-view
 **Imagenes**
-    ```bash
+        ```bash
         - npx expo install expo-image-picker
 **AsyncStorage**
-    ```bash
+        ```bash
         - npx expo install @react-native-async-storage/async-storage
 **QR**
-    ```bash
+        ```bash
         - npm install react-native-qrcode-svg
         - npx expo install react-native-svg
 
 ### Ver versiones instaladas:
 **...**
-    ```bash
+        ```bash
         - npm list --depth=0
 **Ejemplo de de este caso:**
-├── @babel/core@7.27.1
-├── @expo/metro-runtime@5.0.4
-├── @react-native-async-storage/async-storage@2.1.2
-├── @react-navigation/bottom-tabs@7.3.13
-├── @react-navigation/material-top-tabs@7.2.13    
-├── @react-navigation/native-stack@7.3.13
-├── @react-navigation/native@7.1.9
-├── expo-image-picker@16.1.4
-├── expo-status-bar@2.2.3
-├── expo@53.0.9
-├── react-dom@19.0.0
-├── react-native-gesture-handler@2.24.0
-├── react-native-qrcode-svg@6.3.15
-├── react-native-reanimated@3.17.5
-├── react-native-safe-area-context@5.4.0
-├── react-native-screens@4.10.0
-├── react-native-svg@15.11.2
-├── react-native-tab-view@4.1.0
-├── react-native-web@0.20.0
-├── react-native@0.79.2
-└── react@19.0.0
+    ```bash
+    ├── @babel/core@7.27.1
+    ├── @expo/metro-runtime@5.0.4
+    ├── @react-native-async-storage/async-storage@2.1.2
+    ├── @react-navigation/bottom-tabs@7.3.13
+    ├── @react-navigation/material-top-tabs@7.2.13    
+    ├── @react-navigation/native-stack@7.3.13
+    ├── @react-navigation/native@7.1.9
+    ├── expo-image-picker@16.1.4
+    ├── expo-status-bar@2.2.3
+    ├── expo@53.0.9
+    ├── react-dom@19.0.0
+    ├── react-native-gesture-handler@2.24.0
+    ├── react-native-qrcode-svg@6.3.15
+    ├── react-native-reanimated@3.17.5
+    ├── react-native-safe-area-context@5.4.0
+    ├── react-native-screens@4.10.0
+    ├── react-native-svg@15.11.2
+    ├── react-native-tab-view@4.1.0
+    ├── react-native-web@0.20.0
+    ├── react-native@0.79.2
+    └── react@19.0.0
 
 ## Arquitectura general
 
