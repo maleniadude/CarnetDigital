@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "CarnetDigital",
+    "slug": "CarnetDigital",
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "jsEngine": "hermes"
+    },
+    "ios": {
+      "jsEngine": "hermes"
+    }
+  }
+}
+
